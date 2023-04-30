@@ -1,0 +1,114 @@
+.content {
+  font-family: var(--barlow);
+  color: var(--grayish-blue);
+  width: 75%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.content-title {
+  /* width: 29.375rem; */
+  width: 30rem;
+  font-family: var(--barlow-condensed);
+  color: var(--very-dark-blue);
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.content-par {
+  font-size: 20px;
+  margin: 1.25rem 0 1.875rem 0;
+  width: 18.75rem;
+  color: var(--dark-grayish-blue);
+}
+
+.content-details {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.content-new {
+  font-family: var(--barlow-condensed);
+  color: var(--light-grayish-blue);
+  font-weight: 700;
+  letter-spacing: 1px;
+  width: 3.125rem;
+  height: 1.875rem;
+  text-align: center;
+  padding: 0.3rem 0;
+  background: var(--very-dark-blue);
+  border-radius: 20px;
+  margin-right: 1.25rem;
+}
+
+.content-sub {
+  color: var(--dark-grayish-blue);
+  letter-spacing: 2px;
+}
+
+.content-demo {
+  display: flex;
+  align-items: center;
+}
+
+.content-demo-btn {
+  width: 9.375rem;
+  padding: 0.75rem 0;
+  font-family: var(--barlow-condensed);
+  font-weight: 700;
+  background: var(--red);
+  color: var(--light-grayish-blue);
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-right: 1.25rem;
+  font-size: 16px;
+}
+
+/* 1245px */
+@media screen and (max-width: 77.813rem) {
+  .content-title {
+    width: 28.125rem;
+  }
+}
+
+/* 1120px */
+@media screen and (max-width: 70rem) {
+  .content-title {
+    width: 26.875rem;
+  }
+}
+
+/* 768px */
+@media screen and (max-width: 48rem) {
+  .content {
+    width: 85%;
+    margin: auto;
+    margin-top: 32.5rem;
+    padding-bottom: 6.25rem;
+  }
+  .content-title {
+    width: 21.875rem;
+    font-size: 40px;
+  }
+}
+
+/* 426px */
+@media screen and (max-width: 26.625rem) {
+  .content {
+    margin-top: 21.875rem;
+    padding-bottom: 3.125rem;
+  }
+  .content-details {
+    margin-bottom: 0.3rem;
+  }
+  .content-par {
+    /* width: 85%; */
+    margin: 0.6rem 0 1.25rem 0;
+  }
+  .content-sub {
+    font-size: 14px;
+  }
+}
